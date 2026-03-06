@@ -1,0 +1,100 @@
+export type Language = 'en' | 'ar';
+
+export const translations = {
+  en: {
+    // Booking Form
+    select_services: "Select Services",
+    details_time: "Details & Time",
+    confirmation: "Confirmation",
+    total: "Total",
+    next: "Next",
+    back: "Back",
+    confirm: "Confirm",
+    booking_confirmed: "Booking Confirmed!",
+    
+    // Technician Portal
+    "tech.hello": "Hello",
+    "tech.tasks": "Here are your tasks for today",
+    "tech.today": "Today",
+    "tech.upcoming": "Upcoming",
+    "tech.logout": "Logout",
+    "tech.mark_completed": "Mark as Completed",
+    "tech.photos": "Photos",
+    "tech.expense": "Expense",
+    "tech.discount": "Discount",
+    "tech.services": "Services",
+    "tech.route_view": "Route View",
+    "tech.today_schedule": "Today's Schedule",
+    "tech.send_feedback": "Send Feedback Request",
+    "tech.cancel_job": "Cancel Job",
+    "tech.confirm_cancel": "Are you sure you want to cancel this job?",
+    "tech.mark_as_completed": "Mark as Completed",
+    "tech.loading": "Loading...",
+    "tech.create_special": "Create Special Booking",
+    
+    // Admin Portal
+    "admin.overview": "Overview",
+    "admin.bookings": "Bookings",
+    "admin.calendar": "Calendar",
+    "admin.map": "Map View",
+    "admin.technicians": "Technicians",
+    "admin.expenses": "Expenses",
+    "admin.gallery": "Gallery",
+    "admin.reminders": "Reminders",
+    "admin.settings": "Settings",
+    "admin.logout": "Logout",
+    "admin.revenue": "Total Revenue",
+    "admin.pending": "Pending",
+    "admin.completed": "Completed",
+    "admin.history": "History",
+  },
+  ar: {
+    // Booking Form
+    select_services: "اختر الخدمات",
+    details_time: "التفاصيل والوقت",
+    confirmation: "تأكيد الحجز",
+    total: "الإجمالي",
+    next: "التالي",
+    back: "رجوع",
+    confirm: "تأكيد",
+    booking_confirmed: "تم تأكيد الحجز!",
+
+    // Technician Portal
+    "tech.hello": "مرحباً",
+    "tech.tasks": "إليك مهامك لليوم",
+    "tech.today": "اليوم",
+    "tech.upcoming": "القادم",
+    "tech.logout": "تسجيل الخروج",
+    "tech.mark_completed": "تحديد كمكتمل",
+    "tech.photos": "الصور",
+    "tech.expense": "المصاريف",
+    "tech.discount": "خصم",
+    "tech.services": "الخدمات",
+    "tech.route_view": "عرض المسار",
+    "tech.today_schedule": "جدول اليوم",
+    "tech.send_feedback": "إرسال طلب تقييم",
+    "tech.cancel_job": "إلغاء المهمة",
+    "tech.confirm_cancel": "هل أنت متأكد من إلغاء هذه المهمة؟",
+    "tech.mark_as_completed": "تحديد كمكتمل",
+    "tech.loading": "جاري التحميل...",
+    "tech.create_special": "إنشاء حجز خاص",
+
+    // Admin Portal
+    "admin.overview": "نظرة عامة",
+    "admin.bookings": "الحجوزات",
+    "admin.calendar": "التقويم",
+    "admin.map": "عرض الخريطة",
+    "admin.technicians": "الفنيين",
+    "admin.expenses": "المصاريف",
+    "admin.gallery": "المعرض",
+    "admin.reminders": "التذكيرات",
+    "admin.settings": "الإعدادات",
+    "admin.logout": "تسجيل الخروج",
+    "admin.revenue": "إجمالي الإيرادات",
+    "admin.pending": "قيد الانتظار",
+    "admin.completed": "مكتمل",
+    "admin.history": "السجل",
+  }
+};
+
+export type TranslationKey = keyof typeof translations.en;
