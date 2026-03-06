@@ -407,7 +407,6 @@ export default function SettingsView() {
           </div>
         </div>
       </div>
-      </div>
 
       {/* Security */}
       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
